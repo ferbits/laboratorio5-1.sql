@@ -30,3 +30,6 @@ INSERT INTO cargo (id_cargo, nombre_cargo,descripcion, salario) VALUES
 
 USE empresa;
 SELECT * FROM empleado;
+
+USE empresa;
+SELECT * FROM cargo;
