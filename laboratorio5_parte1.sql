@@ -39,3 +39,6 @@ UPDATE empleado SET salario_empleado=6500000 WHERE id_empleado=2;
 
 USE empresa;
 SELECT * FROM empleado WHERE salario_empleado>=7000000;
+
+USE empresa;
+DELETE FROM empleado WHERE id_empleado=3;
