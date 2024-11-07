@@ -45,3 +45,7 @@ DELETE FROM empleado WHERE id_empleado=3;
 
 USE empresa;
 SELECT * FROM empleado WHERE cargo_empleado='Desarrollador';
+
+USE empresa;
+INSERT INTO empleado(id_empleado, nombre_empleado, cargo_empleado,salario_empleado) VALUES
+(4,'Marta López','Asistente',3000000);
