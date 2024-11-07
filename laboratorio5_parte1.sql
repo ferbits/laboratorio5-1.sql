@@ -42,3 +42,6 @@ SELECT * FROM empleado WHERE salario_empleado>=7000000;
 
 USE empresa;
 DELETE FROM empleado WHERE id_empleado=3;
+
+USE empresa;
+SELECT * FROM empleado WHERE cargo_empleado='Desarrollador';
