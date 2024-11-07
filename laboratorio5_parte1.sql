@@ -35,4 +35,7 @@ USE empresa;
 SELECT * FROM cargo;
 
 USE empresa;
+UPDATE empleado SET salario_empleado=6500000 WHERE id_empleado=2;
+
+USE empresa;
 SELECT * FROM empleado WHERE salario_empleado>=7000000;
