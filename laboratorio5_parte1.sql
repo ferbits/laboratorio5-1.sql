@@ -16,3 +16,8 @@ CREATE TABLE cargo(
 	descripcion VARCHAR(100)NOT NULL,
 	salario INT NOT NULL
 );
+USE empresa;
+INSERT INTO empleado (id_empleado, nombre_empleado,cargo_empleado, salario_empleado) VALUES 
+(1, 'Juan Pérez','Gerente',7500000),
+(2, 'Ana Gómez','Desarrollador',6000000),
+(3, 'Luis Castro','Proyectos',10000000);
