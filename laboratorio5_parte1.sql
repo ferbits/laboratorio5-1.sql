@@ -33,3 +33,6 @@ SELECT * FROM empleado;
 
 USE empresa;
 SELECT * FROM cargo;
+
+USE empresa;
+SELECT * FROM empleado WHERE salario_empleado>=7000000;
