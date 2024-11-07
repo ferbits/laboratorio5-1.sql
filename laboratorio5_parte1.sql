@@ -27,3 +27,6 @@ INSERT INTO cargo (id_cargo, nombre_cargo,descripcion, salario) VALUES
 (1, 'Gerente','Administrador de la empresa',500000),
 (2, 'Asistante','Personal técnico',250000),
 (3, 'Desarrollador','Gestor de dasarrollo',10000000);
+
+USE empresa;
+SELECT * FROM empleado;
